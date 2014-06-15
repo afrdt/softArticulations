@@ -32,6 +32,7 @@ void loop() {
   int sensorC = analogRead(A2);
   int sensorD = analogRead(A3);
   int sensorE = analogRead(A4);
+  
   // print out the values you read:
   Serial.print(sensorA);
   Serial.print(" ");
